@@ -1,0 +1,208 @@
+body{
+  text-align:center;
+  background:linear-gradient(#c0cccb, #89918f);
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  color:black;
+  font:family sans;
+  
+}
+a {
+  text-decoration:none;
+}
+img{
+  width :200px;
+  height:200px;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #B9BBC1;
+  margin:auto;
+  width:100%;
+  position:relative;
+  
+}
+.nav {
+  float:left;
+  display: flex;
+  color: darkslategray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-type:round;
+  
+  
+}
+a:hover{
+  background-color:lightseagreen;
+  color:white;
+}
+table {
+  width:100%;
+}
+th{
+  height:100px;
+}
+
+#recipeFrame {
+  width:500px;
+  overflow: scroll;
+  background-color:darkgray;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#recipeInnerFrameTop {
+  width: 500px;
+  height: 200px;
+  margin: 0 auto;
+ 
+}
+
+#recipeInnerFrameInstructions {
+  width: 500px;
+  height: 200px;
+  float: bottom;
+  font-size: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  white-space: pre-wrap;
+}
+
+#recipeInnerFrameTopImg {
+  float: left;
+  padding: 10px;
+}
+
+#recipeInnerFrameTopName {
+   width: 500px;
+   height: auto;
+   font-size: 25px;
+   font-weight: bold;
+}
+
+#recipeInnerFrameTopIngredients {
+   width: 500px;
+   height: 160px;
+   font-size: 15px;
+}
+
+#recipeSearchFrame{
+
+  display: inline-block;
+  background-color: #B9BBC1;
+  padding: 20px;
+}
+
+#createRecipeForm {
+   width: 50%;
+   float: middle;
+   margin: 0 auto;
+}
+
+#myRecipesColumn {
+  display: inline-block;
+  margin: 10px;
+  float: center;
+  width: 500px;
+  height: 3000px;
+  background-color: darkgray;
+}
+
+#myRecipeFrame {
+  width:500px;
+  background-color:#B9BBC1;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#recipeInnerFrameInstructions{
+  overflow: scroll;
+}
+
+#myRecipesFrameTop {
+   display: inline-block;
+   float: center;
+   margin: 10px;
+}
+
+#myRecipesInnerFrameTopCreateRecipesButton {
+   margin: 20px;
+   background-color: #B9BBC1;
+}
+
+#myRecipesInnerFrameTopSearchRecipesButton {
+  margin: 20px;
+  background-color: #B9BBC1;
+}
+
+#WideLine {
+  width: 500px;
+  height: 2px;
+  background-color: gray;
+}
+
+#myRecipesFrame {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  background-color: skyblue;
+}
+
+#myShoppingListColumn {
+  display: inline-block;
+  margin: 10px;
+  float: center;
+  width: 500px;
+  height: 3000px;
+  background-color: #B9BBC1;
+}
+
+#loginSignupLinkDiv {
+  margin: 10px;
+   font-size: 10px;
+}
+
+#signupLoginLinkDiv {
+  margin: 10px;
+   font-size: 10px;
+}
+
+#bmiFrame {
+  background-color: #B9BBC1;
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+  
+}
+
+#bmiInnerFrameTop {
+  width: 500px;
+  height: 250px;
+  display: inline-block;
+  float: top;
+}
+
+#bmiInnerFrameBot {
+  width: 500px;
+  height: 250px;
+  display: inline-block;
+  float: bottom;
+}
+#shoppingList {
+  
+}
+
+#createRecipesFrame {
+  display: inline-block;
+  margin: 10px;
+  float: center;
+  text-align: center;
+  width: 500px;
+  height: 500;
+  background-color: #B9BBC1;
+}
